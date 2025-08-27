@@ -11,3 +11,5 @@ for(let i = 0 ; i <= lorem.length-1 ; i ++){
 }
 let value = document.querySelector("p.lorem") //pick the first one
 value.innerHTML = "Picked First One"
+let h2 = document.querySelector("h2#one")
+h2.innerHTML = "Teaching and Learning"
