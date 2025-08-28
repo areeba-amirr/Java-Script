@@ -21,3 +21,8 @@ console.log(unOrdered.getAttribute("class"))
 console.log(heading.childElementCount)
 console.log(unOrdered.childElementCount) //to count child element
 console.log(document.body.childElementCount)
+
+
+let hi = document.getElementsByClassName("hi");
+// hi[0].setAttribute("class","hello") //replace older one
+hi[0].classList.add("class","hello") //adds multiple class
