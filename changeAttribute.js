@@ -17,3 +17,7 @@ console.log(result) //true
  console.log(unOrdered.hasAttribute("id"))
  unOrdered.removeAttribute("id")
 console.log(unOrdered.getAttribute("class"))
+
+console.log(heading.childElementCount)
+console.log(unOrdered.childElementCount) //to count child element
+console.log(document.body.childElementCount)
