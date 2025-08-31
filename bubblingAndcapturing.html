@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="bubblingAndcapturing.js"></script>
+  <title>bubblingAndcapturing</title>
+  <style>
+    body{
+      padding: 100px;
+      background-color: antiquewhite;
+    }
+    #my-div{
+      padding: 50px;
+      background-color: black;
+    }
+    #btn{
+      background-color: pink;
+      border: 3px solid blue;
+    }
+    #btn2{
+      background-color: pink;
+      border: 3px solid rgb(10, 169, 58);
+    }
+    #div{
+      padding: 50px;
+      background-color: rgb(164, 14, 14);
+    }
+    #div2{
+      padding: 50px;
+      background-color: rgb(88, 89, 192);
+    }
+  </style>
+</head>
+<body>
+  <div id="my-div">
+    <button id="btn">Click Me</button>
+  </div>
+  <div id="div">
+    <div id="div2">
+      <button id="btn2">Click me2</button>
+    </div>
+  </div>
+</body>
+</html>
