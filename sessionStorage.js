@@ -1,0 +1,7 @@
+sessionStorage.setItem("name","Areeba")
+sessionStorage.setItem("age","18")
+console.log(sessionStorage.getItem("name"))
+sessionStorage.removeItem("age")
+console.log(sessionStorage.length)
+console.log(sessionStorage.key(0))
+sessionStorage.clear()
