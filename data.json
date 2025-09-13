@@ -1,0 +1,38 @@
+{
+  "name" : "Areeba",
+  "age" : 18,
+  "CNIC" : true,
+  "passport" : null,
+  "language" : ["C","Java","html","JS"],
+  "contact" : {
+    "phone" : 1234567788,
+    "mail" : "areeba@gmail.com"
+  },
+  "students" : [
+    {
+      "name" : "Tahreem",
+      "age" : 20,
+      "isAdult" : true
+    },
+    {
+      "name" : "Rumaisa",
+      "age" : 21,
+      "isAdult" : true
+    },
+    {
+      "name" : "Uzma",
+      "age" : 18,
+      "isAdult" : false
+    }
+  ],
+  "employee" : {
+    "empId" : 101,
+    "empSalaray" : 70000,
+    "empJob" : "Permenant"
+  },
+  "subjects" : [
+    ["Science","Botany","Zoology"],
+    ["Maths","Calculus","Linear Algebra"],
+    ["Computer","Ict","Pf"]
+  ]
+}
